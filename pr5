@@ -1,0 +1,88 @@
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
+class Server {
+ public static void main(String[] args) {
+ try {
+ ServerSocket serverSocket = new ServerSocket(5000);
+ System.out.println("Server is waiting for a connection...");
+ Socket socket = serverSocket.accept();
+ System.out.println("Client connected!");
+ BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+ PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+ Scanner scanner = new Scanner(System.in);
+ System.out.print("Enter the window size: ");
+ int windowSize = scanner.nextInt();
+ System.out.print("Enter the total number of frames: ");
+ int totalFrames = scanner.nextInt();
+ int sentFrames = 0;
+ System.out.println("\nServer: Starting Sliding Window Protocol...");
+ while (sentFrames < totalFrames) {
+ int framesInWindow = Math.min(windowSize, totalFrames - sentFrames);
+ System.out.println("\nServer: Sending frames...");
+ for (int i = 0; i < framesInWindow; i++) {
+ System.out.println("Frame " + (sentFrames + i) + " sent.");
+ out.println(sentFrames + i); // Send frame number to client
+ }
+ System.out.println("Server: Waiting for acknowledgment...");
+ boolean allAcknowledged = true;
+ for (int i = 0; i < framesInWindow; i++) {
+ String ack = in.readLine(); // Read acknowledgment from client
+ if (ack.equalsIgnoreCase("ACK")) {
+ System.out.println("Acknowledgment received for frame " + (sentFrames + i));
+ } else {
+ System.out.println("Frame " + (sentFrames + i) + " needs retransmission.");
+ allAcknowledged = false;
+ break;
+ }
+}
+ if (allAcknowledged) {
+ sentFrames += framesInWindow;
+ } else {
+ System.out.println("Retransmitting frames from this window...");
+ }
+ }
+ System.out.println("\nServer: All frames have been successfully sent and acknowledged!");
+ scanner.close();
+ socket.close();
+ serverSocket.close();
+ } catch (IOException e) {
+ e.printStackTrace();
+ }
+ }
+}
+
+
+// client
+import java.io.*;
+import java.net.*;
+import java.util.Scanner;
+class Client {
+ public static void main(String[] args) {
+ try {
+ Socket socket = new Socket("localhost", 5000);
+ System.out.println("Connected to the server!");
+ BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+ PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+ Scanner scanner = new Scanner(System.in);
+ System.out.println("\nClient: Ready to receive frames...");
+ while (true) {
+ String frame = in.readLine(); // Read frame from server
+ if (frame == null) break; // Stop if no more frames
+ System.out.println("Received frame: " + frame);
+ System.out.print("Acknowledge frame " + frame + "? (yes/no): ");
+ String response = scanner.next();
+ if (response.equalsIgnoreCase("yes")) {
+ out.println("ACK"); // Send acknowledgment
+ } else {
+ out.println("NACK"); // Send negative acknowledgment
+ }
+ }
+System.out.println("\nClient: All frames received!");
+ scanner.close();
+ socket.close();
+ } catch (IOException e) {
+ e.printStackTrace();
+ }
+ }
+}
