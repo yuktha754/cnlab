@@ -1,0 +1,1472 @@
+Su
+I. Course Outline
+
+V Semester-CSE (DATASCIENCE)
+DATA VISUALIZATION LAB
+Department of Computer Science and Engineering
+(Data Science)
+Prepared by : Prof. Anbulakshmi S
+
+Compiled By : Dr. Santosh Kumar S
+ Dept. of CSE (DS), SVCE, Bengaluru
+Sri Venkateshwara College of
+Engineering
+Subject
+Code:
+BAIL504
+Program Outcomes
+1 Engineering Knowledge: Apply the knowledge of mathematics, science, engineering
+fundamentals, and an engineering specialization to the solution of complex engineering
+problems.
+2 Problem Analysis: Identify, formulate, research literature, and analyze complex
+engineering problems reaching substantiated conclusions using first principles of
+mathematics, natural sciences, and engineering sciences.
+3 Design/Development of Solutions: Design solutions for complex engineering problems
+and design system components or processes that meet the specified needs with appropriate
+consideration for the public health and safety, and the cultural, societal, and environmental
+considerations.
+4 Conduct Investigations of Complex Problems: Use research-based knowledge and
+research methods including design of experiments, analysis and interpretation of data, and
+synthesis of the information to provide valid conclusions.
+5 Modern Tool Usage: Create, select, and apply appropriate techniques, resources, and
+modern engineering and IT tools including prediction and modeling to complex engineering
+activities with an understanding of the limitations.
+6 The Engineer and Society: Apply reasoning informed by the contextual knowledge to
+assess societal, health, safety, legal, and cultural issues and the consequent responsibilities
+relevant to the professional engineering practice
+7 Environment and Sustainability: Understand the impact of the professional engineering
+solutions in societal and environmental contexts, and demonstrate the knowledge of, and
+need for sustainable development.
+8 Ethics: Apply ethical principles and commit to professional ethics and responsibilities and
+norms of the engineering practice.
+9 Individual and Team Work: Function effectively as an individual, and as a member or
+leader in diverse teams, and in multidisciplinary settings.s
+10 Communication: Communicate effectively on complex engineering activities with the
+engineering community and with society at large, such as, being able to comprehend and
+write effective reports and design documentation, make effective presentations, and give
+and receive clear instructions.
+11 Project Management and Finance: Demonstrate knowledge and understanding of the
+engineering and management principles and apply these to one’s own work, as a member
+and leader in a team, to manage projects and in multidisciplinary environments.
+12 Life-Long Learning: Recognize the need for, and have the preparation and ability to engage
+in independent and life-long learning in the broadest context of technological change.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 1
+DATAVISUALIZATIONLABORATORY
+Sub Code: BCS358C IA Marks: 50
+Total Hours: 25 Hours/Week: 02
+DATA VISUALIZATION LAB Semester V
+Course Code BAIL504 CIE Marks 50
+Teaching Hours/Week (L:T:P: S) 0:0:2:0 SEE Marks 50
+Credits 01 Exam Hours 100
+Examination type (SEE) Practical
+Course objectives:
+● Understand the Importance of data Visualization for business intelligence anddecision
+making.
+● Learn different approaches to understand the importance of visual perception.
+● Learn different data visualization techniques and tools.
+● Gain knowledge of effective data visuals to solve workplace problems.
+Sl.NO Experiments
+1 Getting Started - Tableau Workspace, Tableau terminologies, basicfunctionalities.
+2 Connecting to Data Source – Connecting to Database, Different types of TableauJoins.
+3 Creating a View - formatting charts, adding filters, creating calculated fields anddefining
+parameters.
+4 Dashboard Design and Storytelling – Components of Dashboard, Understanding howto
+place
+worksheets in Containers, Action filters and its types.
+5 Introducing Power BI –Components and the flow of work. Power BI DesktopInterfaceThe Report has five main areas.
+6 Querying Data from CSV - Query Editor, Connecting the data from the Excel Source,Clean,
+Transform the data.
+7 Creating Reports & Visualizations - Different types of charts, Formatting chartswith
+Title, Colors.
+8 Dashboards - Filters in Power BI, Formatting dashboards.
+9 1. Analysis of revenue in sales dataset:
+2. Create a choropleth map (fill the map) to spot the special trends to showthe
+state which has the highest revenue.
+3. Create a line chart to show the revenue based on the month of the year.
+4. Create a bin of size 10 for the age measure to create a new dimension to show
+the revenue.
+5. Create a donut chart view to show the percentage of revenue per region by
+creating zero access in the calculated field.
+6. Create a butterfly chart by reversing the bar chart to compare female & male
+revenue based on product category.
+7. Create a calculated field to show the average revenue per state &display
+profitable & non-profitable state.
+8. Build a dashboard.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 2
+10 Analysis of GDP dataset:
+1. Visualize the countries data given in the dataset with respect to latitudeand
+longitude along with country name using symbol maps.
+2. Create a bar graph to compare GDP of Belgium between 2006 – 2026.
+3. Using pie chart, visualize the GDP of India, Nepal, Romania, SouthAsia,
+Singapore by the year 2010.
+4. Visualize the countries Bhutan & Costa Rica competing in terms of GDP.
+5. Create a scatter plot or circle views of GDP of Mexico, Algeria, Fiji, Estonia from
+2004 to 2006.
+6. Build an interactive dashboard
+11 Analysis of HR Dataset:
+1. Create KPI to show employee count, attrition count, attrition rate, attrition
+count, active employees, and average age.
+2. Create a Lollipop Chart to show the attrition rate based on gender category.
+3. Create a pie chart to show the attrition percentage based onDepartment
+Category- Drag department into colours and change automatic to pie. Entire
+view, Drag attrition count to angle. Label attrition count, change to percent,add
+total also, edit label.
+4. Create a bar chart to display the number of employees by Age group,
+5. Create a highlight table to show the Job Satisfaction Rating for each jobrole
+based on employee count.
+6. Create a horizontal bar chart to show the attrition count for each Education field
+Education field wise attrition – drag education field to rows, sum attrition count
+to col,
+7. Create multiple donut chart to show the Attrition Rate by Gender fordifferent
+Age group.
+12 Analysis of Amazon Prime Dataset:
+1. Create a Donut chart to show the percentage of movie and tv shows
+2. Create a area chart to shows by release year and type
+3. Create a horizontal bar chart to show Top 10 genre
+4. Create a map to display total shows by country
+5. Create a text sheet to show the description of any movie/movies.
+6. Build an interactive Dashboard.
+Course outcomes (Course Skill Set):
+At the end of the course the student will be able to:
+Design the experiment to create basic charts and graphs using Tableau and
+Power BI.
+Develop the solution for the given real world problem.
+Analyze the results and produce substantial writtendocumentation.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 3
+Introduction to Various Data Visualization tools
+Data visualization is the practice of translating information into a visual context,
+such as a map or graph, tomake data easier for the human brain to understand and
+pull insights from. It is the representation of information and data through use of
+common graphics, such as charts, plots, infographics, and animations. Data
+visualization is a powerful way for people, especially data professionals, to display
+data so that it can beinterpreted easily.
+Data Visualization enables decision-makers of any enterprise or industry to look into
+analytical reports and understand concepts that might otherwise be difficult to
+grasp.
+Benefits of Data Visualization:
+1. It is easy to understand the information with graphics
+2. It made data to be represented in attractive way
+3. Shows complex relationships
+4. Helps to process large datasets
+5. Useful for identifying trends
+6. Minimizes ambiguity
+Data visualization tools provide the ability to see and understand data trends,
+outliers, and patterns in an easy, intuitive way. There are various data visualization
+tools available. One must choose the tool based on various factors such as its ease
+of use, types of graphical representations the tool can produce, size of the dataset
+the tool can handle etc. some of Data Visualization tools are Tableau, Power BI,
+Google Charts, Jupyter, Grafana etc.
+The following are some common types of data visualizations:
+1. Table: A table is data displayed in rows and columns, which can be easily
+created in a Word document orExcel spreadsheet.
+2. Chart or graph: Information is presented in tabular form with data displayed
+along an x and y axis, usually with bars, points, or lines, to represent data in
+comparison.
+3. Geospatial visualization: Data is depicted in map form with shapes and
+colours that illustrate the relationship between specific locations, such as a
+choropleth or heat map.
+4. Dashboard: Data and visualizations are displayed, usually for business
+purposes, to help analystsunderstand and present data.
+Introduction to Tableau andInstallation
+Tableau is a data visualization tool that provides pictorial and graphical
+representations of data. It is used for data analytics and business intelligence.
+Tableau provides limitless data exploration without interrupting flow of analysis.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 4
+With an intuitive drag and drop interface, user can uncover hidden insights in data
+and make smarter decisions faster.
+Tableau is a Business Intelligence tool for visually analyzing the data. Users
+can create and distribute an interactive and shareable dashboard, which depict the
+trends, variations, and density of the data in the form of graphs and charts. Tableau
+can connect to files, relational and Big Data sources to acquire and process data.The
+software allows data blending and real-time collaboration, which makes it very
+unique. It is used by businesses, academic researchers, and many government
+organizations for visual data analysis. It is also positioned as a leader Business
+Intelligence and Analytics Platform in Gartner Magic Quadrant.
+As a leading data visualization tool, Tableau has many desirable and unique
+features. Its powerful data discovery and exploration application allows you to
+answer important questions in seconds. You can use Tableau's drag and drop
+interface to visualize any data, explore different views, and even combine multiple
+databases easily. It does not require any complex scripting. Anyone who
+understands the business problems can address it with a visualization of the
+relevant data. After analysis, sharing with others is as easy as publishing to Tableau
+Server.
+Tableau Features
+• Speed of Analysis − As it does not require high level of programming
+expertise, any user with accessto data can start using it to derive value from the
+data.
+• Self-Reliant − Tableau does not need a complex software setup. The desktop
+version which is used by most users is easily installed and contains all the features
+needed to start and complete data analysis.
+• Visual Discovery − The user explores and analyzes the data by using visual
+tools like colors, trend lines, charts, and graphs. There is very little script to be
+written as nearly everything is done by drag and drop.
+• Blend Diverse Data Sets − Tableau allows you to blend different relational,
+semi structured and raw data sources in real time, without expensive up-front
+integration costs. The users don’t need to knowthe details of how data is stored.
+• Architecture Agnostic − Tableau works in all kinds of devices where data
+flows. Hence, the user need not worry about specific hardware or software
+requirements to use Tableau.
+• Real-Time Collaboration − Tableau can filter, sort, and discuss data on the
+fly and embed a live dashboard in portals like SharePoint site or Salesforce. You can
+save your view of data and allow colleagues to subscribe to your interactive
+dashboards so they see the very latest data just by refreshingtheir web browser.
+• Centralized Data − Tableau server provides a centralized location tomanage
+all of the organization’spublished data sources. You can delete, change permissions,
+add tags, and manage schedules in one convenient location. It’s easy to schedule
+extract refreshes and manage them in the data server. Administrators can centrally
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 5
+define a schedule for extracts on the server for both incremental and fullrefreshes.
+Working on Tableau ---Some important screen shots and steps of sheets (NotRelated to
+Programs )
+Connecting to Data and preparing data for visualization in Tableau
+Tableau supports connecting to a wide variety of data, stored in a variety of places.
+For example, data mightbe stored on computer in a spread sheet or a text file, or in
+a big data, relational, or cube (multidimensional) database on a server in enterprise
+or the data can be from a public domain available on the web.
+Data can be imported in Tableau Public from Connect panel on left side. For
+example, an Excel sample dataset was loaded into Tableau as follows:
+After clicking on open, screen is as follows:
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 6
+The data store page appears as above. The left pan shows that above dataset consists of
+3 worksheets. If we drag orders table, screen appears as follows: Tableau automatically
+identifies the data type of each column
+.
+Now drag Returns table onto the Canvas to the right of Orders table. This shows the
+relation between the twotables Orders and Returns.
+If we click on the link between Orders and Returns table names at the top gives the
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 7
+summary of the relationship between the tables. Now rename the data store and click
+on Sheet1 at the bottom left to proceed. This step creates a data extract which
+improves query performance
+Data aggregation and statistical functions
+We can apply various aggregation and statistical functions on data such as count,
+minimum, maximum, standard deviation, variance etc. This is shown below. This can
+be done by right clicking on the required field of dataset, click on Default properties
+and click on aggregation.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 8
+Or the above operation can be done by creating a calculated field as shown below. To
+create a calculated field,click on the down arrow button beside search tab above Tables
+panel, drag a field to that calculated field window.
+Then click on apply and results are shown below:
+Dept. of CSE (DS) 9
+DATA VISUALIZATION LAB (BCIL504)
+In the same way we can apply any aggregate or statistical function on data with the help
+of calculated fields.
+Data Visualization
+we can perform various visualization operations on data in Tableau. Some of them are
+bar cart, histogram,bubble chart, gantt chart, scatter plot, heat map etc.
+Bar chart:
+Bar charts can be created in 3 variations in Tableau: Horizontal bars, stacked bars, sideby-side bars. Horizontal bars can be created by selecting that type of chart from Show
+Me menu on right hand side of Canvas. The type of chart in box on right hand side
+represents horizontal bar graph.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 3
+Side-by-side bar chart can be created in following way.
+Line graph: Line graph can be continuous or discrete
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 4
+Discrete line graph is shown below:
+Pie chart:
+Dept. of CSE (DS) 5
+DATA VISUALIZATION LAB (BAIL504)
+Bubble chart:
+Dashboards
+Dashboard is a way of displaying various types of visual data in one place. Usually, a
+dashboard is intended to convey different, but related information in an easy-to-digest
+form. And oftentimes, this includes things like key performance indicators (KPI)s or other
+important business metrics that stakeholders need to see andunderstand at a glance.
+Dashboards are useful across different industries and verticals because they’re highly
+customizable. They can include data of all sorts with varying date ranges to help you
+understand: what happened, why it happened, what may happen, and what action should
+be taken.
+For example, category of sales across months in a year, region is the field added. The first
+view is shown below. This can be renamed at the bottom of the screen.
+Now go to 2nd sheet for creating the 2nd view. The second view is shown below. A bubble
+Dept. of CSE (DS) 6
+DATA VISUALIZATION LAB (BAIL504)
+chart was drawnbetween profit and subcategory. Then rename the sheet.
+Next 3rd view is created as follows for profit for each subcategory in the category
+with averages.
+After creating individual views, now a Dashboard can be created by clicking
+on create dashboard at the toolbar.
+Dept. of CSE (DS) 7
+DATA VISUALIZATION LAB (BAIL504)
+After clicking on new dashboard option, the screen is shownbelow.
+Now the sheets or views which are created earlier can be drag and dropped on this
+dashboard. The above threecreated views are placed in the dashboard as follows. One
+can follow their own way of importing sheets on the dashboard. After creating
+dashboard, title can be given to the dashboard from Dashboard tab. Dashboard can
+be customized in terms of its appearance by the user if required. Dashboard once
+created can be saved on user’s system and can be retrieved whenever required.
+Dept. of CSE (DS) 8
+DATA VISUALIZATION LAB (BAIL504)
+POWER BI
+What is Power BI?
+Power BI is a business intelligence tool that allows you to connect to various data
+sources, visualize the data in reports and dashboards, and then share them with
+anyone you want.
+Power BI is a Data Visualization and Business Intelligence tool that converts data
+from different data sourcesto interactive dashboards and BI reports.
+What is Power BI Used For
+Power BI is a tool in the category of Business Intelligence (BI). The purpose of BI is to
+track Key PerformanceIndicators (KPIs) and uncover insights in business data so as
+to better inform decision-making across the organization.
+Power BI is used in different ways depending on the role of the individual, from
+developers, analysts, managers, and directors, to everyone in between.
+How Does Power BI Compare to Other Tools Like Tableau and Excel?
+Power BI and Tableau are both business intelligence tools and have a lot of overlap
+in terms of their capabilities. There are 2 key differences between Power BI and
+Tableau:
+1. Power BI only works on Windows, whereas Tableau supports both Windows
+and MacOS.
+2. Pricing options differ between Power BI and Tableau. However, Tableau is
+generally the moreexpensive option.
+Why Power BI?
+“DATA “ Analysis and Decision Making
+Organizations need a tool that can help them understand the large amount of data
+that they are collecting. Itis a powerful data visualization and analysis tool that
+allows businesses to turn raw data into actionable insights and reports.
+Microsoft Power BI comes with a free or paid version. The free version only
+provides Power BI tools like Power BI Desktop and Power Q&A to dashboards.
+Whereas, in the Pro version they provide services like live report sharing, Power
+View, and more Power BI apps.
+Key Differences Between Power BI and Tableau
+Power BI Tableau
+Power BI uses DAX for measuring and
+calculating columns.
+Tableau deploys MDX for dimensions andmeasures.
+Power BI is best for a limited volume of data. Tableau can handle huge columns of data and still offer better
+performance.
+Power BI offers many data points for data
+visualization.
+Tableau has better data visualization.
+Dept. of CSE (DS) 9
+DATA VISUALIZATION LAB (BAIL504)
+PROGRAM 1: Getting Started - Tableau Workspace, Tableau terminologies,
+Basic functionalities.
+Working with Tableau thatfocuses on understanding the Tableau Workspace,
+Tableau terminologies, andbasic functionalities.
+Dataset used: vgsales.csv
+1. Go to Start Page: Toggle between the active sheet and the Desktop Start Page.
+2. Data Pane: Includes dimensions and measures, populated from your selected
+data source. May alsoinclude calculated fields, parameters, or sets.
+3. Analytics Pane: Includes options you can use to apply reference lines,
+forecasts, trend lines, to addtotals to crosstabs, and to build boxplots.
+4. Workbook Name: The file name of our workbook.
+5. View Cards: Used for modifying the worksheet.
+6. Toolbar Icons: Icons are available for quick access to popular features.
+7. Worksheet/View: Workspace for building your visualizations.
+8. Go to Data Source: Returns you to the data source specification page.
+9. Worksheet Tabs: Click to view a specific worksheet, dashboard, or story
+10. New Worksheet, Dashboard, and Story Tabs: Click to create a new
+Worksheet, Dashboard, or Story.
+11. Status Bar: Displays data about the fields and marks included in the view.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 10
+Steps:
+• Connect to Data:
+1.Tableau Workspace
+Setup:
+• Open Tableau, and on the "Start Page," select Connect -> To a File ->
+Text File.
+• Browse to the location of vgsales.csv and open it.
+• Data Preview:
+• After loading, Tableau will show a preview of the data. You can rename
+columns if necessary.
+• Click on the "Sheet 1" tab at the bottom to go to your first worksheet.
+Tableau Terminologies:
+• Dimensions: These are qualitative fields. In vgsales.csv, examples
+include Platform, Genre,andPublisher.
+• Measures: These are quantitative fields used for calculations. Examples
+are Global_Sales, NA_Sales,and Year.
+• Rows and Columns Shelf: Drag dimensions and measures to the Rows
+or Columns shelves to buildthe structure of your visualization.
+• Marks: Controls the appearance of the data. You can set marks to be
+circles, bars, or other shapes andcontrol size, color, and label.
+• Filters: Used to limit the data displayed in the view.
+• Pages Shelf: Used for creating animations or segmenting your view by
+categories.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 11
+2. Basic Functionalities:
+a.Basic Visualization (Bar Chart of Global Sales by Genre):
+• In your worksheet, drag Genre to the Columns shelf.
+• Drag Global_Sales to the Rows shelf.
+• You should see a bar chart. If the data isn’t aggregating correctly,
+check if the aggregation is set to SUM by right-clicking Global_Sales ->
+Measure -> Sum.
+b.Sorting:
+• Click on the Global_Sales axis and sort descending to show the genres with
+the most sales first.
+c.Filtering:
+• Drag Year to the Filters shelf.
+• Choose the range of years you want to display (e.g., 2000-2016).
+• Add Year to the Pages shelf to create a dynamic view of how sales changed over time
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (AI & ML) 12
+4 .Additional Functionalities:
+Dashboards: Combine different sheets to create a comprehensive dashboard. Go
+to the Dashboard tab, drag your created sheets to the layout, and arrange them
+accordingly.
+a. Add one more worksheet - Global Sales Trend by Year
+• Drag Year to the Columns.
+• Drag Global_Sales to the Rows.
+• Create a line chart to show how global sales have trended over time.
+• Add Genere to the Marks
+• Apply color to Genere
+b. Go to the Dashboard tab inTableau.
+c. Add multiple visualizations to a single dashboard. (To increase dashboard
+size - select size-Automatic)
+d. Arrange charts (e.g., a line chart for yearly sales, a bar chart for top genres,
+etc.).
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 13
+PROGRAM 2 : Connecting to Data Source – Connecting to
+Database, Different types of Tableau Joins.
+Dataset used: Tableau Joins File: Contains 3 sheets : Demographics, Salary, Job
+Title
+1. Connecting to Excel Files in Tableau:
+• Open Tableau and click on Connect in the left pane.
+• Under To a File, choose Microsoft Excel.
+• Browse and select your Excel file (Tableau Joins File.xlsx).
+• Tableau will display the sheets from the Excel file in the Data Sourcetab.
+• Drag the relevant sheets to the workspace.
+2. Tableau Joins File.xlsx Dataset: has three Excel sheets
+• Demographics:
+• EmployeeID
+• NameofEmployee
+• EmployeeAge
+• EmployeeGender
+• Salary:
+• EmployeeID
+• EmployeeSalary
+These sheets have a relationship based on the EmployeeID, and you can join
+them using this field.
+Drag and drop Demographics table- Right click-select open- that allows you to
+do following types ofjoins.
+Now Drag and drop Salary table - That allows you to do join of your choice.
+3. Types of Joins inTableau:
+Once both tables are in the Data Source tab, Tableau automatically suggests an
+inner join, but you canmodify the type of join depending on the scenario.
+a. Inner Join:
+• Description: Returns only records where there is a match in both tables.
+• How to Create in Tableau:
+• Drag Demographics and Salary sheets into the canvas.
+• Tableau automatically detects the common field (EmployeeID). If not,
+manually select it.
+• Choose Inner Join in the Join Type options.
+• Result: You will see only employees whose employee id matches in both
+Demographics andSalary table.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 14
+b. Left Join:
+a. Description: Returns all records from the left table
+(Demographics), and matched records from the right table (salary).
+If there’s no match, NULL values are returned for fields from the
+right table.
+How to Create in Tableau:
+b. In the join settings, select Left Join.
+c. Result: All employees will be returned, even if data missing in
+Salary. Salary information willbe NULL for those without a match.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (AI & ML) 15
+c. Right Join:
+• Description: Returns all records from the right table (Salary), and
+matched records from the left table(Demographics). If there’s no match,
+NULL values are returned for fields from the left table.
+• How to Create in Tableau:
+• Select Right Join.
+Result: You will see all salary, even if they don't
+d. Full Outer Join:
+• Description: Returns all records when there is a match in either the
+left (Demographics) or right (Job Title) table. If there’s no match, NULL
+values are returned for the missing side.
+• How to Create in Tableau:
+• Select Full Outer Join.
+• Result: You will see all employees and all salary, even if they don’t
+have a match in the other table. NULL values will appear where
+there’s no corresponding record.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (AI & ML) 16
+4. Creating a Visualization Based on Joins:
+After performing the joins, you can build
+different visualizations.Press on Sheet 1:
+For example
+• Bar Chart: Number of employees and their
+salary.
+• Drag NameofEmployee to Columns.
+• Drag EmployeeSalary to Rows.
+• This chart will display the number of employees and their salary based on the
+type of join.
+• Sort it in decending
+• Drag EmployeeSalary to Marks - Select color Color, Label.
+• After installing it we have to connect to Mysql
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 17
+ Change Visualization Type:
+In theShow Me panel on the right, select a bar chart or any other type that suits your needs.
+PROGRAM 3: Creating a View – formatting charts, adding
+filters, creating calculated fields anddefining parameters.
+Step 1: Connect to Data
+1. Open Tableau Desktop.2
+2. Connect to Your Data Source:
+a. Click on Connect on the left sidebar.
+b. Choose your data source by selecting text file and load your vgsales dataset
+into Tableau.
+Step 2: Create a Basic Visualization
+• Create a New Worksheet:
+a)Click on the Sheet tab at the bottom of the screen.
+• Drag Fields to Shelves:
+a) Drag Year to the Columns shelf.
+b) Drag Global Sales to the Rows shelf.
+c) Drag EU Sales to the Rows shelf.
+That gives the line graph
+2. Connect to Your DataSource:
+a)Click on Connect on the left sidebar.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 18
+Step 3: Format the Chart
+• Format Axes:
+a) Right-click on the Global Sales axis and select Format.
+b) In the Format pane, adjust the font style & size as needed.
+• Add Titles and Annotations:
+a) Click on the chart title area and enter a descriptive title - Global Sales by
+Year.
+b) Add annotations if needed to highlight specific data points – Right click the
+on the chart which you want to highlight - Select Annotate - Select Mark -
+Press Ok.
+Step 4: Add Filters
+Add a Filter for Year:Drag Year to the Filters shelf.Choose the range of years
+you want to display (e.g., 2000-2016).
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 19
+Step 5: Create Calculated Fields
+Create a Calculated Field for SalesCategory:
+a) Right-click on Global Sales - Select Create - Calculated Field.
+b) Give name to your calculations as Global Sales - EU Sales
+c) Do calculations as per your need - [Global Sales] - [EUSales]
+d) Press Ok
+Add Calculated Fields to Visualization:
+a) Drag Global Sales-EU Sales to the Rows shelf to show Global Sales over Year
+with GlobalSales-EU Sales over Year.
+Step 6: Create a Parameter:
+Name: "Select Genre"
+• Data Type: String
+• Values: List (e.g., "Action", "Adventure", "Shooter") or Add values from Genre.
+• Create a Calculated Field:
+• Name: "Sales by Genre"
+• Formula:
+• IF [Genre] = [Select Genre] THEN [Global Sales] ELSE 0 END
+Build the Visualization:
+• Columns: Drag "Year".
+• Rows: Drag "Sales by Genre".
+• At the right side of your sheet you can select required Genre and
+can see different VisualizationVisualization by Genre: Fighting
+Visualization by Genre:Puzzle
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 20
+PROGRAM 4 : Dashboard Design and Storytelling – Components of Dashboard,
+Understanding how to place worksheets in Containers, Action filters and its types.
+CREATING A STORY WITH TABLEAU PUBLIC
+With Tableau public, you are able to organize your data in order to tell a meaningful story.
+This is beneficial when you are doing a presentation, creating an article, or uploading to
+a website, as it helps your audience understand your data.
+Stories are created through assembling the different worksheets and dashboards. We can
+highlight important data points, add text box and pictures to help convey our story.
+However, there are many different ways to tell a story. For example, one technique is
+called “tailoring in” where the story starts with a big picture view and zooms in on a
+specific detail.
+In contrast, a story can also be told by starting with a case and zooming out to that big
+picture view. We are going to return to our health expenditure worksheets to create a
+tailoring in story and illustrate the changes in Canada’s spending in a meaningful way.
+To begin, select “New Story” at the bottom right of your screen.
+Drag “Sheet 1” and “Sheet 2” on to “Drag a sheet here”. We can rename each
+storyboardby clicking “Add acaption”. Rename Sheet 1 to “Provincial Health
+Expenditure in 2016”.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 21
+Use the arrows located on the side of the caption field to navigate to Sheet 2.
+Click on “Add a caption”and rename Sheet 2 to “Provincial Health Expenditure
+from 1975-2018”.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 22
+In this story, we are going to narrow in and draw attention to the province or territory
+that is spending the most amount of money on health. Drag an additional copy of
+“Sheet 1” and drop it between the two existing sheets. Select “Add a caption” and
+rename it to “Ontario”.
+On the map, click on the province Ontario and then navigate to the caption
+field and select “Update”. Your screen will show Ontario highlighted fromthe
+rest of Canada.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 23
+Select the right arrow to navigate to “Provincial Health Expenditure from 1975-
+2018”. Hover over the line representing Ontario and select the data point
+representing health expenditure during the year 2016. Then click “Update”. Your
+screen should look like this:
+We can add a textbox to label the highlighted pointed by dragging “Drag to add text”
+onto the linegraph. Write a key message in the textbox, such as “Ontario had the
+highest health expenditure in Canada in 2016, spending $87,195.70M”. Select “OK”.
+You can the edit the text box by selecting “More options” which will open a drop-down
+menu.Expand the text box by dragging the borders in order to show the full message.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 24
+We have now created a story with three sheets of how Ontario had the highest health
+expenditurein the year 2016. If you choose to add a dashboard, it will allow your
+audience to play with data. You can navigate between the story as shown below.
+SAVING AND PUBLISHING YOUR TABLEAU PUBLIC WORKBOOK
+Once satisfied with your workbook, which includes sheets, dashboards, and
+stories, you can publish it to the Tableau Public website. This is the only way
+to save your work whenusing Tableau Public,so make sure to do it if you wish
+to return to the workbook in the future.
+Once ready to publish, select the “Save to Tableau Public As…” option under
+the “File”tab.
+CREATING A DASHBOARD WITH TABLEAU
+Dashboards are a great way to combine your data visualizations and have them
+interact with one another. A lot of businesses use dashboards to keep up-todate in real time about key performance indicators at a glance.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 25
+In this example, we will combine just twoof our data visualizations, the map
+and the line graph from the first section of the tutorial,but in reality, it can be
+used to combine manyvisualizations at once.
+The first step in creating your dashboard is to open up the Dashboard tab at
+the bottomof the screen:
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 26
+rovinces. T
+This is your Dashboard Sheet. On the left side you can see that there is a list of the
+sheets you havemade from your current data source.
+To build your dashboard, drag the sheet you want in to the center where it says Drop
+sheets here. For our purposes, we will need to drag Sheet 1 and Sheet 2 where the map
+and line graph are saved. When you drag, you will notice an area of your screen will
+shade over where your graph will dropwhen you put it down. Organize your dashboard
+to look like the following:
+Now to add titles to the graphs that were chosen, double click on the automatic titles
+generated based on the sheet name, and a new window should appear, type in a title
+that describes the graphlike so:
+We can also add additional titles and objects to the dashboard by choosing an object
+from the Objects side panel and dragging it to the dashboard. We are going to add
+titles to the bottom line graph to differentiate between the Canada line and the
+p o do this, drag to the area near the orange line that
+corresponds to the sum of all provinces expenditure throughout the years. Type in
+“Canada”. Drag once more to label the remaining provinces. Your bottom
+graph should look like this:
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 27
+Now, to add an interactive layer between the graphs, we can choose a graph that can actas
+a filterto the other. We will choose the line graph to act as a filter to the map. To do this,
+click on the line graph and a grey sidebar should appear. From this bar, click the filter
+icon to use this graph as a filter:
+Now, when you click a given line, it will be highlighted on the above map:
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 28
+Congrats, now you have an interactive dashboard that is ready to be published or
+saved!
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 29
+PROGRAM 5: Introducing Power BI –Components and the flow of
+work. Power BI Desktop Interface-The Report has five main areas.
+Power BI includes the following components−
+• Power BI Desktop − This is used to create reports and data
+visualizations on the dataset.
+• Power BI Gateway − You can use Power BI on-premises
+gateway to keep your data fresh by connecting to your onpremises data sources without the need to move the data. It
+allows you to query large datasets and benefit from the existing
+investments.
+• Power BI Mobile Apps − Using Power BI mobile apps, you can
+stay connected to their data from anywhere. Power BI apps are
+available for Windows, iOS, and Android platform.
+• Power BI Service − This is a cloud service and is used to
+publish Power BI reports and data visualizations
+Fig 1 : The Components of Power BI
+FLOW OF WORK
+• A typical Power BI workflow involves more than one type of content.
+• A Power BI designer (yellow in the diagram) collects data from semantic
+models, brings it into Power BI Desktop for analysis, and creates reports
+full of visualizations that highlight interesting facts and insights.
+• The designer pins visualizations from reports to dashboards, and shares
+the reports and dashboards with business users like you (black in the
+diagram).
+Fig 2: Flow ofwork
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 30
+• A visualization (or visual), is a type of chart built by Power BI
+designers. The visuals display the data from reports and semantic
+models. Because they're highly interactive, you can slice, filter, highlight,
+change, and even drill into visualizations.
+• A semantic model is a container of data. For example, it might be an
+Excel file from the World Health Organization. It might also be a companyowned database of customers, or it might be a Salesforce file. And it might
+be all three if the designer combines them into a single model. Designers
+manage semantic models. The data contained in semantic models is used
+to build reports, dashboards, and apps that designers share with you.
+• A dashboard is a single screen with tiles of interactive visuals, text,
+and graphics. A dashboard collects your most important metrics, or a
+focused set of metrics, on one screen, to tell a story or answer a question.
+The dashboard content comes from one or more reports and one or more
+semantic models.
+• A report is one or more pages of interactive visuals, text, and graphics
+that together make up a single report. Power BI bases a report on a
+single semantic model. Often, the designer organizes report pages to each
+address a central area of interest or answer a single question.
+• An app is a way for designers to bundle and share related
+dashboards, reports, and semantic models together. Business users
+receive some apps automatically but can go search for other apps created
+by colleagues or by the community. For example, out-of- the-box apps are
+available for external services you may already use, like GoogleAnalytics
+and Microsoft Dynamics CRM.
+Power BI Desktop Interface-The Report has five mainareas.
+Downloading and Installing Power BI Desktop
+Power BI Desktop is available in both 32-bit and 64-bit versions. To download the
+latest version, you can use the following link –
+The Steps to be followed
+1. Download from the link
+https://www.microsoft.com/en-us/power-platform/products/powerbi/downloads
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 31
+2. Click on Products-→Power BI--→Desktop
+3. Click on Advanced Download option
+4. Select the Language as English and Click on download and
+choose PBIDEsktopSetup_x64.exe
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 32
+5. Download Begins and you will get exe file which will be
+downloaded in your downloads folder
+PBIDesktopSetu
+p_x64
+(2).exe
+6. Double click on the .exe file ,to get the installation wizard
+7. Click on Next button until you get Finish button and finally installation
+will be done.
+8. Once the Installation is done ,double click on Power BI App.
+The screen appears as below
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 33
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 34
+When you launch the application, Power BI Desktop will start with a blank report.
+Let's go over the components of the Power BI Desktop Interface
+• Ribbon - the top ribbon contains most of the controls and options needed for
+building the report.
+• Views - this is made up of the report view, the data view, and the model view.
+• Canvas - this is the main design area where visualizations and other elements are
+added.
+• Page selector - for navigation to other pages in the report.
+• Filters - fields can be added here to filter the data.
+• Visualizations - this contains the list of available visualizations.
+• Fields - this section contains the tables and fields that are available in the data model.
+The Major Components of Power BI Desktop Interface are
+Power Query Editor
+It is the process of cleansing and transforming data and permits users to access
+datasets connecting from multiple sources. It is included on the Power BI
+desktop. Business users may view the data from distinct databases like MySQL,
+SQL servers, DB2, and many more.
+Power View
+It is a data visualization tool that assists users in developing stunning charts,
+and colourful maps, that turn data into a story.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 35
+Power Map
+It is a 3D map visualization tool to identify geospatial data on Map visuals. It
+helps organizations to examine the maximum sales production geographically,
+visualizing the demographic populations of specific regions.
+Power Pivot
+It is a Data Modelling technique that is used to create relationships between
+datasets. It performs complex computations by utilizing DAX functions.
+Power Q & A
+When dealing with giant datasets, it becomes crucial to get to know the in-depth
+details of the data. Luckily, it is done through natural language where users
+may ask questions and obtain the answer through Power Q & A.
+Build reports :
+In Power BI Desktop Report view, you can build visualizations
+and reports. The Report view has six main areas:
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 36
+1. The ribbon at the top, which displays common tasks associated with
+reports and visualizations.
+2. The canvas area in the middle, where you create and arrange visualizations.
+3. The pages tab area at the bottom, which lets you select or add report pages.
+4. The Filters pane, where you can filter data visualizations.
+5. The Visualizations pane, where you can add, change, or customize
+visualizations, and apply drillthrough.
+6. The Format pane, where you design the report and visualizations.
+7. The Fields pane, which shows the available fields in your queries. You
+can drag these fields onto the canvas, the Filters pane, or the
+Visualizations pane to create or modify visualizations.
+DATA VISUALIZATION LAB (BCIL504)
+PROGRAM 6 :Querying Data from CSV - Query Editor, Connecting the
+data from the Excel Source, Clean, Transform the data
+Power BI Desktop also includes the Power Query Editor, which opens in a
+separate window. In Power Query Editor, you can build queries and
+transform data, then load the refined data model into Power BI Desktop to
+create reports.
+Along the left side of Power BI Desktop are icons for the three Power BI Desktop views:
+Report, Data, and Model, from top to bottom. The current view is indicated by
+the yellow bar along the left, and you can change views by selecting any of
+the icons.
+Report view is the default view.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 38
+ CONNECT Data from different Sources)
+With Power BI Desktop installed, we can connect to the world of data.
+To see the many types of data sources available,
+Once Power BI screen is seen click on blankReport
+After clicking on blank Report the below screen appears .
+NOW TO GET DATA FROM DIFFERENT SOURCES ------------- The steps
+Step 1 : Select Get Data in the Power BI Desktop Home tab, and in
+the Get Data window, scroll through the list of All data sources.(like
+Excel,CSV,Oracle….)
+On the Power BI Desktop Home tab, select Get Data > Excel workbook
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 39
+Click on the file you need and open the file ,once you open the file below window
+with navigator appears ,select the file (2nd option to see the contents of the file)
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 40
+1.At this point you can select Load to load the table, or Transform data to make
+changes in the table before you load it.
+2.When you select Transform data, Power Query Editor launches, with a
+representative view of the table. The Query Settings pane is on the right, or you
+can always show it by selecting Query Settings on the View tab of Power Query
+Editor.
+Transforming the data: Once connected to a data source, you can adjust the
+data to meet your needs.
+To transform the data, you provide Power Query Editor with step-by-step
+instructions for adjusting the data while loading and presenting it.
+Transforming doesn't affect the original data source, only this particular viewof
+the data.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 41
+Transforming the data, includes renaming columns or tables, removing rows
+or columns, or changing data types.
+Power Query Editor captures these steps sequentially under Applied Steps in the
+Query Settings pane.
+Notice that the Applied Steps in Query Settings already contain a few steps. You
+can select each step to see its effect in the Power Query Editor
+To Change a data type
+• Select the column or columns to change.
+• Hold down the Shift key to select several adjacent columns, or Ctrl to select
+non- adjacent columns.
+• Either right-click a column header, select Change Type,
+• choose a new data type from the menu, or drop down the list next to Data Type
+in the Transform group of the Home tab,
+• select a new data type.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 42
+To Reduce/Delete theRows
+• From the Home tab select
+• Reduce Rows > Remove Rows > Remove Bottom Rows.
+• In the Remove Bottom Rows dialog box, enter 10, and then select OK.
+The bottom 10 worst rows are removed from the table, and the step
+Removed Bottom Rows appears in Applied Steps.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 43
+To Remove columns
+• From Home Tab Select Manage Columns group select Remove Columns.
+You can also right-click one of the selected column headers and select Remove
+Columns from the menu.
+• The selected columns are removed, and the step Removed Columns appears
+in Applied Steps.
+Applied steps in the Query setting pane
+Right-click any step in the Applied Steps pane and choose to delete it, rename it,
+move it up or down in the sequence, or add or delete steps after it.
+For intermediate steps, Power BI Desktop will warn you if the change could affect
+later steps and break your query.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 44
+Once all the required transformations are done the report should be
+created in the Power BI Desktop
+• Apply the changes in Power Query Editor and load them into Power BI
+Desktop
+• Selecting Close & Apply from the Home tab of the ribbon.
+• You can also select just Apply to keep the query open inPower
+Query Editor while you work in Power BI Desktop.
+To reopen Power Query Editor from Power BI Desktop
+Select Transform Data on the Home tab of the Power BI Desktop ribbon.
+You can expand and collapse the Filters, Visualizations, and Fields panes
+by selecting the arrows at the tops of the panes. Collapsing the panes
+provides more space on the canvas to build cool visualizations.
+The Visualizations pane shows information about the visualization
+1. The Fields option in the Visualization pane lets you drag data fields to
+Legend and other field wells in the pane.
+2. The Format option lets you apply formatting and other controls to visualizations.
+3. The icons show the type of visualization created. You can change the type
+of a selected visualization by selecting a different icon, or create a new
+visualization by selecting an icon with no existing visualization selected
+4. The options available in the Fields and Format areas depend on the type
+of visualization and data you have.
+5. You want your map visualization to show only the top 10 weather states.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 45
+To show only the top 10 states, in the Filters pane, hover over State is (All) and
+expand the arrow that appears. Under Filter type, drop down and select Top N.
+Under Show items, select Bottom, because you want to show the items with the
+lowest numerical ranks, and enter 10 in the next field
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 46
+PROGRAM 7 : Creating Reports & Visualizations - Different
+types of charts, Formatting charts with Title, Colors
+17 Most Common Charts available in Power BI:
+● Bar Chart
+● Line Chart
+● Scatterplot
+● Sparkline
+● Pie Chart
+● Gauge
+● Waterfall Chart
+● Funnel Chart
+● Heat Map / Matrix
+● Histogram
+● Box Plot
+● Maps
+● Tables
+● Indicators
+● Area Chart
+● Radar or Spider Chart
+● Tree Map
+● Open Power BI Desktop
+● Click on Get data in ribbon pane
+● Click on Excel worksheet option
+• Choose specific dataset and open it. Example: HR Data.csv
+• Click on Transform Databutton
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 47
+• Power Query Editor window will open.
+• We have to perform some transformation on this table
+• Select row 1 and click on Use first row asheader
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 48
+• Then, we have to create new column for attrition count. For this, select attrition
+column
+click on Add Column new window will open then add details as
+follows. Once you are done with this, attrition count column will be added
+as a last row of the table
+• Change the datatype of this column to whole number
+• Click on Close &Apply.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 49
+• You will be back on canvas area with table loaded in Data Pane (in right side).
+We will start with KPIChart
+• A Key Performance Indicator (KPI) is a visual that communicates the amount
+progress made toward a measurable goal
+Click on
+“Close &
+Apply”
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 50
+Now format this particular visual with title, size, colour.
+1. Click on “Format your visual” in Visualization Pane
+2. Go to General tab
+a. click on Title type “Overall Employees” in Text box, Horizontal
+alignment and colour of your choice
+b. expand effects OFF the background of KPI chart
+c. Effects ON visual border change the color and 20 roundedcorners
+3. Now, go to Visual tab OFF the category label
+4. In visual tab, callout value change the font color
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 51
+Kindly Note: If you want same format for all visuals, complete the
+formatting with one of the visual, click on format painter and click on
+the visual for which you want the formatting. Little bit formatting will
+be required as properties for each visual will be different
+Select Pie Chart.
+Now apply same steps for creating STACKED COLUMN CHART.
+A column chart, commonly referred to as a vertical bar graph, is a visual
+tool utilized to display and compare numerical data across different
+categories. Each column within the chart corresponds to a specific
+category, with the height of the column proportionally representing the
+associated value.
+Optional: As you can see, age is not sorted correctly, so we have to create
+additional column.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 52
+Once sort age column is created change the datatype of column if its not in
+whole number. Click on “Close & Apply”
+Now, on canvas, in data pane select CP_age_band click on sort by
+column select newly created column sort age and now
+click on visual and follow the steps, Finally, output will be as follows:
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 53
+Finally, output will be as follows
+:
+Now apply same steps for creating MATRIX.
+The matrix visual is a type of table visual that supports a stepped layout. A
+table supports two dimensions, but a matrix makes it easier to display data
+meaningfully across multiple dimensions. Often, report designers include
+matrixes in reports and dashboards to allow users to select one or more element
+(rows, columns, cells) in the matrix to cross-highlight other visuals on a report
+page.
+Format the row header & column header text color & background color
+Also, format the Row grand total & column grand total
+Now apply same steps for creating Stacked Bar Chart.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 54
+Now apply same steps for creating Donut.
+A doughnut chart is similar to a pie chart in that it shows the relationship
+of parts to a whole. The only difference is that the center is blank and
+allows space for a label or icon.
+Doughnut charts work best when you use them to compare a particular
+section to the whole, rather than comparing individual sections with each
+other.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 55
+Slicers: A slicer is a standalone chart that can be used to filter the other
+visuals on the page. Slicers come in many different formats (category,
+range, date, etc.) and can be formatted to allow selection of only one,
+many, or all of the available values.
+Slicers are a great choice to:
+• Display commonly used or important filters on the report canvas for easier access.
+• Make it easier to see the current filtered state without having to open a dropdown list.
+• Filter by columns that are unneeded and hidden in the data tables.
+• Create more focused reports by putting slicers next to important visuals.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 56
+focused page.
+PROGRAM 8:Dashboards - Filters in Power BI, Formattingdashboards
+Filters remove all but the data you want to focus on.
+Filter Pane: You can apply filters in the Filters pane, or make selections in slicers
+directly on the report page itself. The Filters pane shows the fields in individual
+visuals and any other filters the report designer adds.
+There are four standard types of filters that you create in the Filters pane.
+• Visual filter applies to a single visual on a report page. You see visuallevel filters when you select a visual on the report canvas. Even if you
+can't edit a report, you can select a visual and filter it.
+• Page filter applies to all the visuals on the report page.
+• Report filter applies to all pages in the report.
+• Drill through filter With drill through in the Power BI service and Power
+BI Desktop, you create a destination report page that focuses on a
+specific entity, such as a supplier. From the other report pages, users
+can right-click a data point for that entity and drill through to the
+•
+We will be using HR dataset (same used for Exp7).
+Extending same dashboard with using filters & let’s format the final
+dashboard. Let’s apply filter for department (Particular visual).
+1. Drag Department from Data Pane to Filters Filters on this page
+textbox. Basic Filtering
+2. Now, you can see, HR dept. is selected and now in below picture, you
+can see that only HR data is visible, whereas, R&D and Sales data will
+not be shown.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 57
+Now, HR and R&D departments areselected.
+3. Now, lets try for advanced filter
+Let’s find out results for salary greater than equal to 10000.
+Drag and drop Monthly Income in
+filter Filter type: advanced filtering
+Show items when the value: is greater than or
+equal to Value: 10000
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 58
+4. Now, try for Top N filtering. Try to display top 4 Job roles
+having highest job satisfaction.
+• Select “Job satisfaction rating” visual In Filters Pane, Filters on this
+visual
+Job Role
+Filter type:
+Top N
+Show item: Top : 4
+By value: Sum of Job Satisfaction
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 59
+PROGRAM 9 : BUILDING DASHBOARD
+Analysis of revenue in salesdataset:
+i) Create a choropleth map (fill the map) to spot the special trends to show
+the state which has the highest revenue.
+ii) Create a line chart to show the revenue based on the month of the year.
+iii) Create a bin of size 10 for the age measure to create a new
+dimension to show the revenue.
+iv) Create a donut chart view to show the percentage of revenue per
+region by creating zero access in the calculated field.
+v) Create a butterfly chart by reversing the bar chart to compare female
+& male revenue based on product category.
+vi) Create a calculated field to show the average revenue per state &
+display profitable & non-profitable state.
+vii) Build a dashboard.
+Solution:
+Step1: Upload the revenue dataset
+Step2: In the power query editor as part of transformation remove the unnecessary
+columns (Remove the last null column)
+Question 1: Create a choropleth map (fill the map) to spot the special
+trends to show the state which has the highest revenue.
+Step1: Select the "Map" visualization from the Visualizations
+pane.(filled map) Step2: Set Up the Map:
+• Drag the state field to the "Location" field well.
+• Drag the revenue field to the "Size" or "Values" fieldwell.
+Step3: Customize: In the "Format" pane, adjust settings such as color, size,
+and tooltips to enhance readability. You can use color gradients to indicate
+different revenue levels, helping to spottrends.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 60
+Question 2: Create a line chart to show the revenue based on the month
+of the year. Step1:Add a Line Chart: Select the "Line chart" visualization
+from the Visualizations pane.
+Step2: Configure the Chart:
+• Drag the month field to the "Axis" field well.
+• Drag the revenue field to the "Values" field well.
+Step3: Format: In the "Format" pane, you can customize the line color, axis
+titles, and other aspects to clearly present the revenue trend throughout
+the year
+.
+Question 3: Create a bin of size 10 for the age measure to create a new
+dimension to show the revenue.
+Step1: Create Bins for age
+• Go to the "Data" view and select the age field.
+• Right-click on the age field and choose "New group".
+• In the "Group" window, select "Bin" and set the bin size to 10.
+Step2: Add to Visualization:
+• Create a new visualization (e.g., bar chart or column chart). Here weused
+Stacked column chart.
+• Drag the new age bins field to the "X Axis" and the revenue field to the "Yaxis”.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 61
+Question 4: Create a donut chart view to show the percentage of revenue per
+region by creating zero access in the calculated field.
+Step1: Add a Donut Chart: Select the "Donut chart" visualization from the
+Visualizations pane.
+Step2:Set Up the Chart:
+• Drag the region field to the "Legend" field well.
+• Drag the revenue field to the "Values" fieldwell.
+Step3: Create Zero Access:
+• Go to the "Format" pane, select "Detail labels", and set the "Label
+position" to "Inside" to create a zero access effect.
+• Adjust the "Detail" and "Percentage" settings as needed.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 62
+•
+Note: The "zero access effect" is a visual design technique often used indata
+visualizations to emphasize or clearly show zero values or the absence of
+certain data. This effect is particularly useful in charts where you wantto
+highlight how values are distributed relative to zero, or where zero plays a
+significant role in the interpretation of the data.
+Donut Charts:
+In a donut chart, the zero access effect can be used to enhance readability by
+placing labels or markers at the center of the chart or using a specific design
+to show where there is no data.
+For example, if one segment of a donut chart represents zero revenue, you
+might design the chart so that this segment is clearly visible or highlighted
+to indicate no revenue.
+Question 5: Create a butterfly chart by reversing the bar chart to compare female
+& male revenue based on product category.
+Step1: Create a New Measure
+TotalRevenue =
+sum(SalesTable[Revenue])
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 63
+Method-1: By using stacked column chart
+Method 2:
+Step 1:
+Add Two Bar Charts:
+o Create two separate bar charts from the "Visualizations" pane.
+Step 2:
+Configure the First Bar Chart (e.g.,Female
+Revenue): Drag ProductCategory to the "Axis" field.
+Drag TotalRevenue to the "Values" field.
+Apply a Filter:
+▪ In the "Filters" pane, add a filter to show only Female revenue. You can
+drag Gender to the "Filters" pane and set the filter to include onlyFemale.
+Step 3:
+Configure the Second Bar Chart (e.g., Male Revenue):
+Drag ProductCategory to the "Axis"
+field. Drag TotalRevenue to the
+"Values" field. Apply a Filter:
+▪ In the "Filters" pane, add a filter to show only Male revenue. You can
+drag Gender to the "Filters" pane and set the filter to include only Male.
+Step 4:
+Reversing the Bars:
+• To create the butterfly effect, you need to reverse one of the bar charts.
+This involves adjusting the direction of the bars so that they face
+opposite directions from the center. o Reverse the Bars:
+▪ For one of the charts (e.g., Male revenue), you will need to use a calculated
+column or measure to make the bars extend in the opposite direction. In
+Power BI, this can be achieved by adjusting the data in the chart's settings
+or using custom visualizations if necessary.
+Add Titles and Labels:
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 64
+• Add clear titles and labels to each chart to indicate what data they
+represent (e.g., "Female Revenue" and "Male Revenue").
+• Customize the chart's appearance to enhance readability.
+DATA VISUALIZATION LAB (BCIL504)
+Dept. of CSE (DS) 65
+Question 6:Create a calculated field to show the average revenue per state &
+display profitable & non-profitable state.
+Step1: Create a New Measure
+• Go to the Modeling tab and select "New Measure".
+• Create the Average RevenueMeasure:
+• Enter the following DAX formula to calculate the average revenue per state:
+AverageRevenuePerStat
+e = AVERAGEX(
+VALUES(SalesTable[State]),
+CALCULATE(SUM(SalesTable[Revenue]))
+)
+Step2: Create a Calculated Column to Categorize States
+Next, create a calculated column to classify states as profitable ornonprofitable based on the average revenue.
+1. Go to the Modeling tab and select "New Column".
+2. Create the Profitability Column:
+Enter the following DAX formula to create a column that categorizes statesas
+profitable or non-profitable:
+ProfitabilityStatus =
+IF(SalesTable[AverageRevenuePerState] > 1000,
+"Profitable",
+"NonProfitable"
+)
+Step 3: Display the Results
+1. Add a Table and select state, AverageRevenueState and ProfitablitiyStatus.
+Dept. of CSE (DS) 66
+DATA VISUALIZATION LAB (BCIL504)
+Extra : To get the Total value or single value
+In Power BI, a Card visualization is used to display a single, important piece
+of data, such as a key metric or a number. It is commonly used to show
+aggregate values like:
+• Total Sales
+• Average Profit
+• Total Units Sold
+• Number of Customers
+The Card provides a clean and simple way to highlight critical metricsthat
+are important for decision-making. It's ideal for dashboard views where
+quick insights are needed.
+To show the total revenue
+Drag the Revenue field into the field well
+Dept. of CSE (DS) 67
+DATA VISUALIZATION LAB (BCIL504)
+To Add filter orSlicer
+Filter Data: Slicers filter data across multiple charts and visuals in a report.
+For example, selecting a specific region or product category in a slicer can
+update all connected visuals to reflect data only for that selection.
+Steps : 1. Select slicer from the Visual pane
+2. Drag the Country field into the field well
+Question 7:Build a dashboard.
+Dept. of CSE (DS) 68
+DATA VISUALIZATION LAB (BCIL504)
+PROGRAM 10 : Analysis of GDP dataset
+i)Visualize the countries data given in the dataset with respect to latitude and
+longitude along withcountry name using symbol maps
+Step1: Bring Latitude
+Step2: Bring Country in Color Marks Pane
+Bring any Year Measured Value to Label after that You be able to see screen as in below
+ii) Create a bar graph to compare GDP of Belgium between 2006 – 2026.
+Step1:
+Get Measured Names to Filter Pane then select as in years
+mentioned 2006 – 2026.Get Country to Filter and Select
+Belgium
+Step2:
+Drag Measured Name and Country into Column
+Step3:
+Drag Measured Value to Row You see outputs
+Dept. of CSE (DS) 69
+DATA VISUALIZATION LAB (BCIL504)
+iii)Using pie chart, visualize the GDP of India, Nepal,
+Romania, South Asia, Singapore by the year 2010.
+Step1:
+Get Country to Filter pane and select India, Nepal,
+Romania, South Asia, SingaporeGet Measure Name to
+Filter and select 2010 Step2: Important Step
+Select option of chart as Pie(instead of automatic in Marks Pane) andDrag
+Country in Color frame
+Finaly Sum or avg or anything of your choice to angle Frame ( For sum its
+SUM[(2010)], For average itsAVG[(2010)] from measure value
+The output result is as in below
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 70
+iv)Visualize the countries Bhutan & Costa Rica competing in terms of GDP.
+Step1: Filter Country and Measure name Iike Bhutan,Costarics and
+2016,2017,2018 as year(Measure name)
+Step2:Add Country and Measure Names in column, Measure Values in Row
+Step3:For better view add Measure Names to Color frame in Marks pane
+iv)Create a scatter plot or circle views of GDP of Mexico, Algeria, Fiji,
+Estonia from 2004 to 2006.
+Step1:Add Country in filter as per requirement
+Add measure names in filter and select as per requirement
+Step2: Add Measured Name in Column and an add any measured values of year
+2004,2005,2006Finally opt for Circle as option
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 71
+Program 11. Analysis of HR Dataset:
+i)Create KPI to show employee count, attrition count, attrition rate, attrition count,
+active employees, and average age.
+ii) Create a Lollipop Chart to show the attrition rate based on gender category.
+iii) Create a pie chart to show the attrition percentage based on Department
+Category- Drag department into colours and change automatic to pie. Entire view,
+Drag attrition count to angle. Label attrition count, change to percent, add total
+also, edit label.
+iv) Create a bar chart to display the number of employees by Age group,
+v) Create a highlight table to show the Job Satisfaction Rating for each job role
+based on employee count.
+vi) Create a horizontal bar chart to show the attrition count for each Education
+field Education field wise attrition – drag education field to rows, sum attrition
+count to col,
+vii) Create multiple donut chart to show the Attrition Rate by Gender for
+different Age group. Solution :
+i) Create KPI to show employee count, attrition count, attrition rate,
+attrition count, active employees, and average age.
+Step1: Create a New measure
+Employee Count = COUNT('HR'[EmployeeNumber])
+Step2: Choose KPI card in the visualization and drag and drop the Employee Count.
+Format your visuals of your style.
+Step3: Create a New Measure
+Attrition Count = COUNTROWS(FILTER('HR', 'HR'[Attrition]="Yes"))
+Step4: Choose KPI card in the visualization and drag and drop the Attrition
+Count. Format your visuals of your style.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 72
+Step5: Create a New Measure
+Attrition Rate = DIVIDE([Attrition Count], [Employee Count], 0) *100
+Step6: Choose KPI card in the visualization and drag and drop the Attrition Rate.
+Format your visuals of your style.
+Step7: To find active employees create a new
+measure Active Employees = [Employee
+Count] - [Attrition Count]
+Step8: Choose KPI card in the visualization and drag and drop the Active
+Employees. Format your visuals of yourstyle.
+Step9: To calculate average age create a new
+measure Average Age = AVERAGE(HR[Age])
+Step10: Choose KPI card in the visualization and drag and drop the Average Age.
+Format your visuals of your style.
+ii)Create a Lollipop Chart to show the attrition rate based on gender category.
+Power BI does not have a native Lollipop Chart, so you will simulate it using
+(any chart) a Line and Stacked column Chart
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 73
+ii) Create a pie chart to show the attrition percentage based on Department
+CategoryDrag department into colours and change automatic to pie. Entire view, Drag
+attrition count to angle. Label attrition count,change to percent, add total also, edit
+label.
+• From the Visualizations pane on the right, select the Pie Chart visual icon.
+This will add a blank pie chart to your report canvas.
+Set Up the Pie Chart:
+• Drag the Department Field to the Legend area.
+• Drag the Attrition Count Measure to the Values area.
+Configure Data Labels andFormatting:
+• Click on the Pie Chart to select it.
+• Open the Format Pane (paint roller icon).
+Change Data Label Settings:
+• Go to the Data Labels section in the Format pane.
+• Toggle Data Labels to On.
+• In the Data Label settings, change Label Style to Percent. This will show the
+percentage of each department's attrition relative to the total.
+• To show the Total alongside thepercentages:
+o Ensure that Data Labels are visible and set to Show.
+o You can add a Total Label in the Title or Tooltips sections if needed for
+additional context.
+Format the Pie Chart:
+• Adjust Colors:
+o Go to the Data Colors section in the Format pane.
+o You can customize colors for each department by clicking on the color
+next to the department name and choosing the color you prefer.
+• Edit Labels:
+o If you want to customize the text in the labels, you can use the Data
+Label formatting options to adjust font size, color, and display units.
+Finalize Your Visualization:
+• Ensure your pie chart looks as expected with percentages representing the
+attrition rate for each department.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 74
+iii) Create a bar chart to display the number of
+employees by Age group, Step1: right click Age and
+choose new group and set bin size as 5.
+Step2: Choose any bar chart drag and drop new age bin and employee count.
+V) Create a highlight table to show the Job Satisfaction Rating for each job
+role based on employee count.
+• Create a Matrix visual from the Visualizations pane.
+• Drag the Job Role field to Rows.
+• Drag the Job Satisfaction Rating field to Columns.
+• Drag the Employee Count measure to Values.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 75
+VI) Create a horizontal bar chart to show the attrition count for each
+Education field Education field wise
+Attrition – drag education field to rows, sum attrition count to col,
+Step1: Horizontal bar chart It's called the Clustered Bar Chart or Stacked Bar
+Chart in the visualizationpane
+Choose stacked bar chart and set y axis is education filed and x axis is attrition
+count.
+vii) Create multiple donut chart to show the Attrition Rate by Gender for
+different Age group. Choose donut chart and drag and drop legend as
+gender and value as attrition rate.
+1. Select the Donut Chart from the Visualizations pane.
+2. Create separate Donut Charts for different age groups.
+• For each chart, filter the dataset based on age group (using the AgeGroup
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 76
+field created earlier).
+3. Drag the Gender field to Legend.
+Drag the Attrition Rate measure toValues
+1. Repeat for each age group, ensuring each donut chart represents a different
+age group with gender breakdown.
+Note:
+• Use Filters to dynamically adjust visuals where necessary (e.g., filter by Age
+Group or Education Field).
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 77
+PROGRAM 12: Analysis of Amazon Prime Dataset
+i) Create a Donut chart to show the percentage of movie and tv shows
+ii) Create a area chart to shows by release year and type
+iii) Create a horizontal bar chart to show Top 10 genre
+iv) Create a map to display total shows by country
+v) Create a text sheet to show the description of any movie/movies.
+vi) Build an interactive Dashboard.
+Step1: Upload the Amazon CSV dataset.
+Step2: Transform data and make the data ready for reporting.
+As part of Transformation remove you can remove blank, null values and
+remove columns which is not required for analysis.
+Step3: Select close and apply.
+i).Create a Donut chart to show the percentage of movie and tv shows
+• From the Visualizations pane, select the Donut chart.
+• Drag the 'Type' field to the Legend section.
+• Drag any suitable column (e.g., ID or Title) to Values, then set the
+aggregation to Count.
+• Use filters to filter only movie and TV show.This will show the percentage
+of Movies vs TV Shows.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 78
+ii) Create a area chart to shows by release year andtype.
+• Ensure your dataset contains a Release Year column and a Type column
+(Movies/TV Shows).
+Steps to Create Area Chart:
+• Choose Area chart from the Visualizationspane.
+• Drag the 'Release Year' field to the Axissection.
+• Drag the 'Type' field to Legend.
+• Drag the Title (or other identifying fields) to Values(Y Axis), and set the
+aggregation to Count.
+• You’ll now see an area chart with Movies and TV Shows distributed over the
+years.
+• Note: Use filters to filter only movies and TV show.
+•
+iii. Create a horizontal bar chart to show Top 10genre.
+Note: Make sure you have a Genre column in your dataset.(Rename the column
+listed in to Genre)
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 79
+Steps to Create Horizontal Bar Chart:
+• From the Visualizations pane, select Bar chart and adjust it to display
+horizontally.
+• Drag the Genre column to the Axis section.
+• Drag the Title (or other identifier) to Values, and set the aggregation to Count.
+• In the Filters pane, filter the Top N to display the Top 10 Genres by the count
+of content.
+• From the Visualizations pane, select Bar chart and adjust it to display
+horizontally.
+iv.Create a map to display total shows by country.
+Make sure you have a country column in your dataset.
+Steps to Create a Map:
+• Choose Filled Map from the Visualizations pane.
+• Write a new measure to count show id
+count showid = count(amazon_prime_titles[release_year])
+• Drag the Country field to the Location section.
+• Check the count showed measure in the data pane.
+• This will show a world map representing the total number of shows produced
+in each country.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 80
+iv) Create a text sheet to show the description of anymovie/movies.
+• Ensure your dataset has a Description column for each movie/TVshow.
+• Choose Table from the visuals and check the title and description columns.
+You can add slicer to search by title to get thedescription.
+DATA VISUALIZATION LAB (BAIL504)
+Dept. of CSE (DS) 81
+v) Build an interactive Dashboard:
